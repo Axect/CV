@@ -1,0 +1,280 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+% Command for printing skill overview bubbles
+\newcommand\skills{ 
+
+	\smartdiagram[bubble diagram]{
+        \textbf{~~~~Theoretical~~~~}\\\textbf{~~Physics~~},
+        \textbf{~~Differential~~}\\\textbf{Geometry},
+        \textbf{Functional}\\\textbf{Programming},
+        \textbf{~~~~~~Machine~~~~~~}\\\textbf{~~Learning~~},
+        \textbf{~~~~Quantum~~~~}\\\textbf{Physics}
+    }
+}
+
+% Programming skill bars
+\programming{{C $\textbullet$ C++ $\textbullet$ Nim $\textbullet$ Elixir / .8 }, {Python $\textbullet$ Julia $\textbullet$ Scala $\textbullet$ R $\textbullet$ Chapel / 2}, {Go $\textbullet$ Haskell $\textbullet$ D / 5}, {Rust / 5.9}}
+
+% Projects text
+\education{
+\textbf{MSc. Candidate, Physics} \\
+Specialization: Particle Physics \\
+Yonsei University \\
+2017 - | Seoul, South Korea
+
+\textbf{BSc., Astronomy} \\
+Yonsei University \\
+2012 - 2017 | Seoul, South Korea
+}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{Tae Geun Kim} % Your name
+\cvjobtitle{ Graduate Student } % Job
+% title/career
+
+\cvlinkedin{/in/tae-geun-kim}
+\cvgithub{github.com/Axect}
+%\cvnumberphone{(647) 221 7999} % Phone number
+\cvsite{axect.github.io} % Personal website
+\cvmail{edeftg@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+ 
+%----------------------------------------------------------------------------------------
+%	 Research Interests
+%----------------------------------------------------------------------------------------
+
+\section{Research Interests}
+
+Geometric method in mathematical physics, General relativity, Scientific computation and Machine learning for High energy physics.
+ 
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+    \twentyitem
+    	{Mar 2017 -}
+		{Feb 2018}
+        {Web Assistant}
+        {\href{http://science.yonsei.ac.kr/}{College of Science, Yonsei Univ.}}
+        {}
+        {
+        {\begin{itemize}
+        \item Developed and maintained new web page of College of Science, Yonsei University with flask.  
+        \item Main work: Debugging and data uploads 
+        \item Tool: Apache, CSS, JS, Flask, MySQL
+    \end{itemize}}
+        }
+        \\
+    \twentyitem
+    	{Mar 2017 -}
+		{June 2017}
+        {Teaching Assistant}
+        {\href{https://yonsei.ac.kr/}{Yonsei Univ.}}
+        {}
+        {
+        {\begin{itemize}
+        \item TA for PHY4205-01 (Mathematical Physics(1))  
+        \item Main work: Delivered several lectures for general relativity and Scoring
+        \item Adviser: Seodong Shin, Dept. of Physics, Yonsei Univ.
+    \end{itemize}}
+        }
+        \\
+    \twentyitem
+    	{Mar 2016 -}
+		{Feb 2017}
+        {Undergraduate Intern}
+        {\href{http://nexus.yonsei.ac.kr/}{Yonsei Univ.}}
+        {}
+        {\begin{itemize}
+        \item Studied quantum field theory, general relativity and performed several projects.
+        \item Projects: Practice of HEP calculation tools with $\phi^4$ theory
+        
+        Tools: MG5\_aMC, CalcHep, Mathematica
+        
+        \item Adviser: Seong Chan Park, Dept. of Physics, Yonsei Univ.
+        \end{itemize}}
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Educational Experience}
+\begin{twenty}
+    \twentyitem
+        {2018}
+        {}
+        {Schools}
+        {}
+        {}
+        {\begin{itemize}
+        \item \textbf{The 9th KIAS CAC Summer School on Scientific computing and Machine learning} (\href{http://www.kias.re.kr/}{KIAS}, 26-29 June)
+        \end{itemize}}
+    \\
+    \twentyitem
+        {2017}
+        {}
+        {Schools}
+        {}
+        {}
+        {\begin{itemize}
+        \item \textbf{The first MadAnalysis 5 workshop on LHC recasting in Korea}
+        (\href{https://indico.cern.ch/event/637941/overview}{KIAS}, 20-27 August)
+        
+        \item \textbf{2017 Summer School on Cosmology and Particle Physics}
+        
+        (\href{https://indico.ibs.re.kr/event/153/}{IBS-CTPU}, 7-11 August)
+        \end{itemize}
+        }
+    \\
+    \twentyitem
+        {2016}
+        {}
+        {Schools}
+        {}
+        {}
+        {\begin{itemize}
+        \item \textbf{2016 Winter School on Cosmology and Particle Physics}
+        
+        (\href{https://indico.ibs.re.kr/event/97/}{IBS-CTPU}, 12-23 December)
+        
+        \item \textbf{KIAS-QUC Winter School on Collider Physics}
+        
+        (\href{http://home.kias.re.kr/MKG/h/WSCP/?pageNo=2548}{KIAS}, 26-29 December)
+        \end{itemize}}
+    \\
+    \twentyitem
+        {2015}
+        {}
+        {Schools}
+        {}
+        {}
+        {\begin{itemize}
+        \item \textbf{Yangpyeong Particle Physics School}
+        
+        (\href{http://home.kias.re.kr/MKG/h/YPschool2015/?pageNo=1717}{KIAS}, 17-20 December)
+        \end{itemize}
+        }
+    \\
+\end{twenty}
+
+\newpage
+
+\makeprofiletwo
+%----------------------------------------------------------------------------------------
+%	 RESEARCH
+%----------------------------------------------------------------------------------------
+\section{Programming Projects}
+\begin{twenty}
+	\twentyitem
+    	{Sep 2018 -}
+		{Present}
+        {Peroxide}
+        {\href{https://crates.io/crates/peroxide}{crates}}
+        {Rust numeric library with easy syntax}
+        {\begin{itemize}
+        \item Rust numeric library contains linear algebra, numerical analysis, statistics and machine learning tools with R, MATLAB, Python like macros.
+        \item Tools: Rust, Cargo, Travis CI
+		\end{itemize}
+        }
+        \\
+    \twentyitem
+    	{Jul 2018 -}
+		{Sep 2018}
+        {DNumeric}
+        {\href{https://code.dlang.org/packages/dnumeric/}{dub}}
+        {D numeric library with R syntax}
+        {\begin{itemize}
+        \item D numeric library for linear algebra and statistical programming with R syntax.
+        \item Tools: D, dub
+		\end{itemize}
+        }
+        \\
+    \twentyitem
+    	{May 2018 -}
+		{Jul 2018}
+        {HNumeric}
+        {\href{https://hackage.haskell.org/package/HNumeric}{hackage}}
+        {Haskell Numeric Library with pure functionality, R \& MATLAB Syntax.}
+        {\begin{itemize}
+        \item Haskell numeric library implemented by pure functional paradigm.
+        
+        \item Tools: Haskell, Stack, Cabal, Travis CI and Hackage CI
+		\end{itemize}
+        }
+        \\
+    \twentyitem
+    	{Jan 2018 -}
+		{Dec 2017}
+        {Hepframework}
+        {\href{https://hub.docker.com/r/axect/hepframework/}{docker hub}}
+        {High Energy Physics Tools on Fedora 27}
+        {\begin{itemize}
+        \item Docker container for High energy physics tools.
+        
+        \item Tools: Docker, Jupyter, Shell script
+        
+        \item HEP Tools: CERN-ROOT 6, MG5\_aMC, CalcHEP, MicrOmegas, OptiMass
+ 
+		\end{itemize}
+        }
+        \\
+    \twentyitem
+    	{May 2017 -}
+		{Nov 2017}
+        {Yonsei HEP-COSMO Web page}
+        {\href{http://nexus.yonsei.ac.kr/}{Yonsei HEP-COSMO}}
+        {}
+        {\begin{itemize}
+        \item Laboratory web page with Django \& Linux server
+        
+        \item Tools: Django, Apache, MySQL
+		\end{itemize}
+        }
+        \\
+    \twentyitem
+    	{Aug 2017 -}
+		{Oct 2017}
+        {RGE}
+        {\href{https://github.com/Axect/RGE}{github}}
+        {Go \& Julia package to solve Renormalization Group Equation}
+        {\begin{itemize}
+        \item Golang Package which solves RGE \& generates plot with Julia.
+        
+        \item Tools: Go, Julia, Glide
+		\end{itemize}
+        }
+\end{twenty}
+
+\end{document} 
